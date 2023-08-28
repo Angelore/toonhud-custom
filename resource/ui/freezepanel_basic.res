@@ -162,10 +162,10 @@
 		"paintbackground"	"1"
 		"bgcolor_override"	"G_PanelBg"
 		
-		"model_ypos"		"10"
+		"model_ypos"		"20"
 		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_wide"		"80"
+		"model_tall"		"50"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
@@ -261,22 +261,22 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"	
-			"xpos"			"21" // 1 CTHB
-			"xpos_minmode"	"21" // 1 CTHB
-			"ypos"			"101" // 2 CTHB
-			"ypos_minmode"	"101" // 2 CTHB
+			"xpos"			"23" // 1 CTHB
+			"xpos_minmode"	"23" // 1 CTHB
+			"ypos"			"103" // 2 CTHB
+			"ypos_minmode"	"103" // 2 CTHB
 			"zpos"			"0"
-			"wide"			"27" // 3 CTHB
-			"tall"			"27" // 3 CTHB
+			"wide"			"23" // 3 CTHB
+			"tall"			"23" // 3 CTHB
 			"visible"		"1"
 			"enabled"		"1"	
-			"HealthBonusPosAdj"			"10" // 4 CTHB
+			"HealthBonusPosAdj"			"0" // 4 CTHB
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"G_FontTiny"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"G_White"
-			"paintborder"				"0" // 5 CTHB
-			"paintbackground"			"0" // 5 CTHB
+			"paintborder"				"1" // 5 CTHB
+			"paintbackground"			"1" // 5 CTHB
 			"border"					"G_HealthBorder"
 			"bgcolor_override"			"G_HealthBarBg"
 		}	
@@ -460,8 +460,3 @@
 		}
 	}	
 }
-
-
-
-
-

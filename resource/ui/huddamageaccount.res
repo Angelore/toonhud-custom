@@ -9,8 +9,8 @@
 		"PositiveColor"			"G_Heal"
 		"NegativeColor"			"G_Hit"
 		"delta_lifetime"		"2.0"
-		"delta_item_font"		"G_FontDamage"
-		"delta_item_font_big"	"G_FontCritDamage"
+		"delta_item_font"		"G_FontTiny_2"
+		"delta_item_font_big"	"G_FontSmall"
 	}
 	
 	"DamageAccountValue"
