@@ -6,8 +6,8 @@ event Hitmarker
 {
 
 	// Team colored hitmarker
-	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
-	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 	// tcHitmarker end
+	//# Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
+	//# Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 	// tcHitmarker end
 	
 	//# Animate Crosshair1 Alpha "255" 	Linear 0.0 0.0		// CrosshairHitmarker1 start
 	//# Animate Crosshair1 Alpha "255" 	Linear 0.0 0.950 	// CrosshairHitmarker1 end
@@ -371,3 +371,4 @@ event HudTournament_ShowTimerDefault
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 }
+
